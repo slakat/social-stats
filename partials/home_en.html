@@ -1,0 +1,155 @@
+<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <!-- You'll want to use a responsive image option so this logo looks good on devices - I recommend using something like retina.js (do a quick Google search for it and you'll find it) -->
+            <a class="navbar-brand" href="#/">
+                <img class="logo" src="img/logo.png" />
+                <!-- KHI: Kinetic Human Interface -->
+            </a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a scroll-to-item scroll-to="#khi">What is Khi</a>
+                </li>
+                <li><a scroll-to-item scroll-to="#producto">State</a>
+                </li>
+                <li><a scroll-to-item scroll-to="#caracteristics">Features</a>
+                </li>
+                <li><a scroll-to-item scroll-to="#equipo">Team</a>
+                <li> <select ng-model="Main.partialId">
+                        <option value="home_en">English</option>
+                        <option value="home">Spanish</option>
+                    </select>
+                </li>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+</nav>
+
+<p class="sticky" style="width: 140px;">
+  <strong>
+ <a href="https://docs.google.com/forms/d/1xNDEgnDqORXYm-qX9Wf1mrJzYi7nSn6Kne0Fzg9Gs20/viewform?usp=send_form">Help us to make it better!</a></strong>
+</p>
+<div class="bg-grad"><div class="clouds">
+    <div class="cloud x1"></div>
+</div>
+<div class="bg-layer color-1 on"></div>
+<div class="bg-layer color-2"></div>
+<div class="bg-layer color-3"></div>
+<div class="bg-layer color-4"></div>
+<div class="bg-layer color-5"></div>
+<div class="bg-layer color-6"></div></div>
+
+<div id="content">
+    <!-- Intro Header -->
+    <section class="intro section-1 color-1">
+        <div class="intro-body">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                        <h1 class="brand-heading">Do you excercise in your free time?</h1>
+                        <p class="intro-text">Smart training with smarth technology</p>
+                        <!--<a href="#" class="btn btn-circle page-scroll">
+                            <i class="fa fa-angle-double-down animated"></i>
+                        </a>-->
+                        <div class="buttons-rombo">
+                        <a scroll-to-item scroll-to="#khi" id="diamond"><p>Meet KHI<i class="fa fa-angle-double-down fa-5x"></i></p>
+                        </a>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="khi" class="info container content-section text-center section-2 color-2">
+        <div class="row info">
+            <div class="col-lg-8 col-lg-offset-2 bg-content">
+                <img src="img/logo.png">
+                <p>KHI is a <b>fitness gadget</b>  that detect the body movements and use the data to process information so the <b>athlete</b> can <b>optimize the routine</b>, amend mistakes, learn how to do the exercise correctly and <b>avoid damage</b>.
+</p>
+                <p> KHI alert the user instantly in case he/she needs to correct the exercise, even without a coach. It keep the data to be analysed later by a specialist and to mantain personal statistics about the training. </p>
+
+                <p>If you're interested in  KHI, help us making it better and  answer <a href="https://docs.google.com/forms/d/1LwKimpNi0BEFp1FMmQL6SG3d7XUaABacn-3gcVdUj9U/viewform">our survey here!</a>.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Download Section -->
+    <section id="producto" class="product content-section text-center section-3 color-3">
+        <div class="nice-section">
+            <div class="container">
+                <div class="col-lg-8 col-lg-offset-2 bg-content desc">
+                    <img src="img/body.png"></img>
+                    <div class="column">
+                    <p><i class="fa fa-check-circle"></i> Right now, Khi is in the phase of concept testing and prototype iteration.</p>
+                    <p><i class="fa fa-check-circle"></i> During the development stage, Khi has the support of the following academic departments: kinesiología and ingeniería en biomedicina of Pontificia Universidad Católica de Chile.
+                    </p>
+                    <p><i class="fa fa-check-circle"></i><b>Winner project</b> from the contest Geek Camp 2014 in Chile.
+                    </p>
+                </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+        <section id="benefits" class="benefits content-section text-center section-5 color-5">
+        <div class="nice-section">
+            <div class="container">
+                <div id="benefit_desc" class="col-lg-8 col-lg-offset-2 bg-content desc">
+                    <div class="feature">
+                        <i class="fa fa-trophy fa-5x icon"></i>
+                        <h3>Get Back to the Training</h3>
+                        <p>Practice your exercise safely, wherever you want and without spending lots and lots of money.</p>
+                    </div>
+                    <div class="feature selected">
+                        <i class="fa fa-heartbeat fa-5x icon selected"></i>
+                        <h3>Avoid Injuries</h3>
+                        <p>The guided training reduce the risk of injuries because of bad postures and help you to achieve a better performance.</p>
+                    </div>
+                    <div class="feature">
+                        <i class="fa fa-connectdevelop fa-5x icon"></i>
+                        <h3>Wise Sessions</h3>
+                        <p>Find just the right pace and learn about all the routines you do.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="equipo" class="container content-section text-center section-4 color-4">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 ">
+                <h2>Team </h2>
+                <ul class="list-inline banner">
+                    <li>
+                        <img src="img/pietro.png" class="team"></img>
+                        <p>Pietro Rivera</p>
+                        <p>Co-founder</P>
+                    </li>
+                    <li>
+                        <img src="img/mariano.png" class="team"></img>
+                        <p>Mariano Lucas</p>
+                        <p>Co-founder</P>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </section>
+</div>
+
+<!-- /.container -->
